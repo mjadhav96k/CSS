@@ -1,0 +1,81 @@
+<!doctype html>
+<head>
+    <title>Home Page</title>
+    <meta charset="UTF-8"> 
+    <style>
+        body
+        {
+            cursor: crosshair;
+            background-color:lightgrey;
+        }
+        #buttons{
+            list-style-type: square;
+            list-style-position: inside;
+            padding-left: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <table border="1" align="center">
+        <tr>
+            <td width="800px" height="100px">
+                <h2>Global Bank</h2>
+            </td>
+        </tr>
+    </table>
+    <table border="1" align="center" bordercolor="#8598CC" cellpadding="2">
+        <tr>
+            <td width="700px">
+                <section>
+                    <h3>Welcome to Global Bank details Page !</h3><br/>
+                    <p>Welcome User</p><br /><br />
+                </section>
+                <table border="4 solid" align="center" bordercolor="#8598CC">
+                    <tr>
+                        <td>
+                            <h3>To know your account details click on the following tabs</h3>
+                            <table id="buttons" cellpadding="5">
+                                <ul>
+                                <tr>
+                                    <td>
+                                        <form name="loginForm" action="accountSummary.html">
+                                            <button type="submit"><li>Account Summary</li></button>
+                                        </form>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>
+                                        <form name="loginForm" action="funds.html">
+                                            <button type="submit"><li>Transfer Funds</li></button>
+                                        </form>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <form name="loginForm" action="loan.html">
+                                            <button type="submit"><li>Apply for loan</li></button>
+                                        </form>
+                                    </td>
+                                </tr>
+                                </ul>
+                            </table>
+                        </td>
+                    </tr><br/>
+                </table><br/>
+                <p dir="rtl"> <a href="home2.html">Logout</a></p>
+            </td>
+        </tr>
+    </table>
+    <table border="1" align="center">
+        <tr>
+            <td width="800px" height="30px">
+                <footer>
+                    <b>&copy; Global Bank</b>
+                </footer>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,16 @@
+footer{
+    background-image: url("footer_new.jpg");
+}
+.bank-heading {
+  background-image: url("header5.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;  /* makes image fully cover the 800×150 area */
+  width: 800px;
+  height: 150px;
+  line-height: 150px;          /* vertically center text */
+  color: white;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+  margin: 0;
+}
